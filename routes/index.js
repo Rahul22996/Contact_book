@@ -8,7 +8,7 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
 // ---------------------------------- USER API ----------------------------------------
-
+// hello 
 router.post('/user/add', UserController.AddUser);
 
 router.get('/user/show', UserController.ShowUser);
